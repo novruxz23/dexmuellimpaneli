@@ -1,0 +1,5 @@
+# site/desktop is a separate Tauri (Rust + GTK on Linux) desktop-app project that
+# wraps this very site in its own window. It is built locally on the developer's
+# own machine (npm install && npm run build inside site/desktop), never on Vercel —
+# Vercel has no GTK/Rust toolchain, so a build triggered here fails on gdk-sys.
+desktop/

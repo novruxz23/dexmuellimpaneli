@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    { "source": "/", "destination": "/panel.html" },
+    { "source": "/panel", "destination": "/panel.html" },
+    { "source": "/health", "destination": "/api/dex?__p=health" },
+    { "source": "/api/:path*", "destination": "/api/dex?__p=:path*" }
+  ]
+}
