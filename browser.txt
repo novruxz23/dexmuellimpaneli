@@ -1,0 +1,4 @@
+# DeX Browser proqramının tam yolunu aşağıya yaz (bir sətir, # ilə başlayan sətirlər nəzərə alınmır).
+# Məsələn:
+# C:\Users\Ad\AppData\Local\Programs\DeX Browser\DeX Browser.exe
+# Boş qalsa, proqram tanınmış yerlərdə axtarılır; tapılmasa standart brauzer açılır.

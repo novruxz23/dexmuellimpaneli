@@ -1,0 +1,7 @@
+{
+  "$schema": "../gen/schemas/desktop-schema.json",
+  "identifier": "default",
+  "description": "The panel window only ever shows the class server's own page; it has no DeX commands to call.",
+  "windows": ["panel"],
+  "permissions": ["core:default"]
+}

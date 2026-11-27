@@ -1,0 +1,24 @@
+{
+  "_info": "Tətil və xüsusi günlər. date: 'AA-GG' (hər il təkrarlanır) və ya 'İİİİ-AA-GG' (yalnız həmin il). kind: holiday = dərs yoxdur, special = xatırlatma. Dəyişəndən sonra: python3 build.py",
+  "holidays": [
+    {"date":"01-01","name":"Yeni il","kind":"holiday"},
+    {"date":"01-02","name":"Yeni il","kind":"holiday"},
+    {"date":"01-20","name":"Ümumxalq hüzn günü","kind":"special"},
+    {"date":"03-08","name":"Qadınlar günü","kind":"holiday"},
+    {"date":"03-20","name":"Novruz bayramı","kind":"holiday"},
+    {"date":"03-21","name":"Novruz bayramı","kind":"holiday"},
+    {"date":"03-22","name":"Novruz bayramı","kind":"holiday"},
+    {"date":"03-23","name":"Novruz bayramı","kind":"holiday"},
+    {"date":"03-24","name":"Novruz bayramı","kind":"holiday"},
+    {"date":"05-09","name":"Faşizm üzərində Qələbə günü","kind":"holiday"},
+    {"date":"05-28","name":"Müstəqillik günü","kind":"holiday"},
+    {"date":"06-15","name":"Milli Qurtuluş günü","kind":"holiday"},
+    {"date":"06-26","name":"Silahlı Qüvvələr günü","kind":"holiday"},
+    {"date":"09-15","name":"Bilik günü","kind":"special"},
+    {"date":"09-27","name":"Anım günü","kind":"holiday"},
+    {"date":"10-05","name":"Müəllimlər günü","kind":"special"},
+    {"date":"11-08","name":"Zəfər günü","kind":"holiday"},
+    {"date":"11-09","name":"Dövlət Bayrağı günü","kind":"special"},
+    {"date":"12-31","name":"Dünya Azərbaycanlılarının Həmrəyliyi günü","kind":"holiday"}
+  ]
+}

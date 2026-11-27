@@ -1,0 +1,35 @@
+{
+  "$schema": "https://schema.tauri.app/config/2",
+  "productName": "DeX Müəllim Paneli",
+  "version": "1.0.0",
+  "identifier": "az.dex.panel.desktop",
+  "build": {
+    "frontendDist": "./dist"
+  },
+  "app": {
+    "withGlobalTauri": false,
+    "windows": [
+      {
+        "label": "panel",
+        "title": "DeX Müəllim Paneli",
+        "url": "https://dexmuellimpaneli.vercel.app/panel",
+        "width": 1320,
+        "height": 840,
+        "minWidth": 920,
+        "minHeight": 600,
+        "resizable": true,
+        "center": true,
+        "dragDropEnabled": false
+      }
+    ]
+  },
+  "bundle": {
+    "active": true,
+    "targets": "all",
+    "icon": ["icons/32x32.png", "icons/128x128.png", "icons/128x128@2x.png", "icons/icon.ico"],
+    "copyright": "© DeX",
+    "category": "Education",
+    "shortDescription": "DeX müəllim paneli",
+    "longDescription": "DeX-in sinif serverindəki müəllim panelini (dərs idarəetməsi, kompüterlər, suallar, canlı ekran) ayrıca pəncərədə açan yüngül masaüstü tətbiq."
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "name": "dexmuellimpaneli",
+  "version": "2.0.0",
+  "private": true,
+  "scripts": { "start": "node dev-server.js", "test": "node test.js", "make-api": "node build-api.js" }
+}

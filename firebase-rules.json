@@ -1,0 +1,16 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "registry": {
+      "$code": {
+        ".write": "!data.exists() && $code.matches(/^[A-Z2-9]{5}$/)",
+        ".validate": "newData.hasChildren(['name', 'token', 'createdAt'])",
+        "name": { ".validate": "newData.isString() && newData.val().length >= 1 && newData.val().length <= 40" },
+        "token": { ".validate": "newData.isString() && newData.val().length >= 16 && newData.val().length <= 64" },
+        "createdAt": { ".validate": "newData.isNumber()" },
+        "$other": { ".validate": false }
+      }
+    }
+  }
+}
